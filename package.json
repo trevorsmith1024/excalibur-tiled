@@ -73,7 +73,7 @@
       "fast-xml-parser": "3.21.1",
       "pako": "1.0.11",
       "zod": "3.23.8",
-      "zstddec": "0.1.0"
+      "zstddec": "trevorsmith1024/zstddec-wasm"
    },
    "peerDependencies": {
       "excalibur": "~0.29.0"
