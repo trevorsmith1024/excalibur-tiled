@@ -4,85 +4,85 @@ declare const TiledProperty: z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
     type: z.ZodLiteral<"int">;
     value: z.ZodNumber;
 }, "strip", z.ZodTypeAny, {
-    value: number;
     name: string;
     type: "int";
+    value: number;
 }, {
-    value: number;
     name: string;
     type: "int";
+    value: number;
 }>, z.ZodObject<{
     name: z.ZodString;
     type: z.ZodLiteral<"bool">;
     value: z.ZodBoolean;
 }, "strip", z.ZodTypeAny, {
-    value: boolean;
     name: string;
     type: "bool";
+    value: boolean;
 }, {
-    value: boolean;
     name: string;
     type: "bool";
+    value: boolean;
 }>, z.ZodObject<{
     name: z.ZodString;
     type: z.ZodLiteral<"float">;
     value: z.ZodNumber;
 }, "strip", z.ZodTypeAny, {
-    value: number;
     name: string;
     type: "float";
+    value: number;
 }, {
-    value: number;
     name: string;
     type: "float";
+    value: number;
 }>, z.ZodObject<{
     name: z.ZodString;
     type: z.ZodLiteral<"string">;
     value: z.ZodString;
 }, "strip", z.ZodTypeAny, {
-    value: string;
     name: string;
     type: "string";
+    value: string;
 }, {
-    value: string;
     name: string;
     type: "string";
+    value: string;
 }>, z.ZodObject<{
     name: z.ZodString;
     type: z.ZodLiteral<"file">;
     value: z.ZodString;
 }, "strip", z.ZodTypeAny, {
-    value: string;
     name: string;
     type: "file";
+    value: string;
 }, {
-    value: string;
     name: string;
     type: "file";
+    value: string;
 }>, z.ZodObject<{
     name: z.ZodString;
     type: z.ZodLiteral<"color">;
     value: z.ZodString;
 }, "strip", z.ZodTypeAny, {
-    value: string;
     name: string;
     type: "color";
+    value: string;
 }, {
-    value: string;
     name: string;
     type: "color";
+    value: string;
 }>, z.ZodObject<{
     name: z.ZodString;
     type: z.ZodLiteral<"object">;
     value: z.ZodNumber;
 }, "strip", z.ZodTypeAny, {
-    value: number;
     name: string;
     type: "object";
+    value: number;
 }, {
-    value: number;
     name: string;
     type: "object";
+    value: number;
 }>]>;
 export declare const TiledTileLayerInfinite: z.ZodObject<z.objectUtil.extendShape<{
     name: z.ZodString;
@@ -99,85 +99,85 @@ export declare const TiledTileLayerInfinite: z.ZodObject<z.objectUtil.extendShap
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -195,16 +195,16 @@ export declare const TiledTileLayerInfinite: z.ZodObject<z.objectUtil.extendShap
         height: z.ZodNumber;
         data: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     }, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     }>, z.ZodObject<{
         x: z.ZodNumber;
@@ -213,77 +213,77 @@ export declare const TiledTileLayerInfinite: z.ZodObject<z.objectUtil.extendShap
         height: z.ZodNumber;
         data: z.ZodArray<z.ZodNumber, "many">;
     }, "strip", z.ZodTypeAny, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     }, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     }>]>, "many">;
     encoding: z.ZodOptional<z.ZodString>;
     compression: z.ZodOptional<z.ZodString>;
     data: z.ZodUndefined;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     startx: number;
     starty: number;
     chunks: ({
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     } | {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -292,61 +292,61 @@ export declare const TiledTileLayerInfinite: z.ZodObject<z.objectUtil.extendShap
     encoding?: string | undefined;
     compression?: string | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     startx: number;
     starty: number;
     chunks: ({
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     } | {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -370,85 +370,85 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -461,96 +461,96 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodOptional<z.ZodString>;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: string;
     encoding: "base64";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
     compression?: string | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: string;
     encoding: "base64";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -571,85 +571,85 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -661,95 +661,95 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
     data: z.ZodArray<z.ZodNumber, "many">;
     encoding: z.ZodLiteral<"csv">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "csv";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "csv";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -769,85 +769,85 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -860,97 +860,97 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodLiteral<"gzip">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "gzip";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "gzip";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -970,85 +970,85 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -1061,97 +1061,97 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodLiteral<"zlib">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zlib";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zlib";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -1171,85 +1171,85 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -1262,97 +1262,97 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodLiteral<"zstandard">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zstandard";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zstandard";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -1372,85 +1372,85 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -1468,16 +1468,16 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         height: z.ZodNumber;
         data: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     }, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     }>, z.ZodObject<{
         x: z.ZodNumber;
@@ -1486,77 +1486,77 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
         height: z.ZodNumber;
         data: z.ZodArray<z.ZodNumber, "many">;
     }, "strip", z.ZodTypeAny, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     }, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     }>]>, "many">;
     encoding: z.ZodOptional<z.ZodString>;
     compression: z.ZodOptional<z.ZodString>;
     data: z.ZodUndefined;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     startx: number;
     starty: number;
     chunks: ({
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     } | {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -1565,61 +1565,61 @@ export declare const TiledTileLayer: z.ZodUnion<[z.ZodObject<z.objectUtil.extend
     encoding?: string | undefined;
     compression?: string | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     startx: number;
     starty: number;
     chunks: ({
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     } | {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -1726,97 +1726,124 @@ declare const TiledObject: z.ZodObject<{
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
 }, "strip", z.ZodTypeAny, {
-    id?: number | undefined;
     name?: string | undefined;
     type?: string | undefined;
-    x?: number | undefined;
-    y?: number | undefined;
-    rotation?: number | undefined;
     height?: number | undefined;
     width?: number | undefined;
+    x?: number | undefined;
+    y?: number | undefined;
+    id?: number | undefined;
+    properties?: ({
+        name: string;
+        type: "int";
+        value: number;
+    } | {
+        name: string;
+        type: "bool";
+        value: boolean;
+    } | {
+        name: string;
+        type: "float";
+        value: number;
+    } | {
+        name: string;
+        type: "string";
+        value: string;
+    } | {
+        name: string;
+        type: "file";
+        value: string;
+    } | {
+        name: string;
+        type: "color";
+        value: string;
+    } | {
+        name: string;
+        type: "object";
+        value: number;
+    })[] | undefined;
     visible?: boolean | undefined;
-    gid?: number | undefined;
     text?: {
         text: string;
         color?: string | undefined;
@@ -1826,6 +1853,8 @@ declare const TiledObject: z.ZodObject<{
         halign?: "left" | "center" | "right" | "justify" | undefined;
         valign?: "center" | "top" | "bottom" | undefined;
     } | undefined;
+    rotation?: number | undefined;
+    gid?: number | undefined;
     point?: boolean | undefined;
     ellipse?: boolean | undefined;
     polyline?: {
@@ -1837,46 +1866,44 @@ declare const TiledObject: z.ZodObject<{
         y: number;
     }[] | undefined;
     template?: string | undefined;
-    properties?: ({
-        value: number;
-        name: string;
-        type: "int";
-    } | {
-        value: boolean;
-        name: string;
-        type: "bool";
-    } | {
-        value: number;
-        name: string;
-        type: "float";
-    } | {
-        value: string;
-        name: string;
-        type: "string";
-    } | {
-        value: string;
-        name: string;
-        type: "file";
-    } | {
-        value: string;
-        name: string;
-        type: "color";
-    } | {
-        value: number;
-        name: string;
-        type: "object";
-    })[] | undefined;
 }, {
-    id?: number | undefined;
     name?: string | undefined;
     type?: string | undefined;
-    x?: number | undefined;
-    y?: number | undefined;
-    rotation?: number | undefined;
     height?: number | undefined;
     width?: number | undefined;
+    x?: number | undefined;
+    y?: number | undefined;
+    id?: number | undefined;
+    properties?: ({
+        name: string;
+        type: "int";
+        value: number;
+    } | {
+        name: string;
+        type: "bool";
+        value: boolean;
+    } | {
+        name: string;
+        type: "float";
+        value: number;
+    } | {
+        name: string;
+        type: "string";
+        value: string;
+    } | {
+        name: string;
+        type: "file";
+        value: string;
+    } | {
+        name: string;
+        type: "color";
+        value: string;
+    } | {
+        name: string;
+        type: "object";
+        value: number;
+    })[] | undefined;
     visible?: boolean | undefined;
-    gid?: number | undefined;
     text?: {
         text: string;
         color?: string | undefined;
@@ -1886,6 +1913,8 @@ declare const TiledObject: z.ZodObject<{
         halign?: "left" | "center" | "right" | "justify" | undefined;
         valign?: "center" | "top" | "bottom" | undefined;
     } | undefined;
+    rotation?: number | undefined;
+    gid?: number | undefined;
     point?: boolean | undefined;
     ellipse?: boolean | undefined;
     polyline?: {
@@ -1897,35 +1926,6 @@ declare const TiledObject: z.ZodObject<{
         y: number;
     }[] | undefined;
     template?: string | undefined;
-    properties?: ({
-        value: number;
-        name: string;
-        type: "int";
-    } | {
-        value: boolean;
-        name: string;
-        type: "bool";
-    } | {
-        value: number;
-        name: string;
-        type: "float";
-    } | {
-        value: string;
-        name: string;
-        type: "string";
-    } | {
-        value: string;
-        name: string;
-        type: "file";
-    } | {
-        value: string;
-        name: string;
-        type: "color";
-    } | {
-        value: number;
-        name: string;
-        type: "object";
-    })[] | undefined;
 }>;
 declare const TiledObjectLayer: z.ZodObject<{
     name: z.ZodString;
@@ -1947,85 +1947,85 @@ declare const TiledObjectLayer: z.ZodObject<{
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     objects: z.ZodArray<z.ZodObject<{
@@ -2092,97 +2092,124 @@ declare const TiledObjectLayer: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
     }, "strip", z.ZodTypeAny, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -2192,6 +2219,8 @@ declare const TiledObjectLayer: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -2203,46 +2232,44 @@ declare const TiledObjectLayer: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -2252,6 +2279,8 @@ declare const TiledObjectLayer: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -2263,56 +2292,54 @@ declare const TiledObjectLayer: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }>, "many">;
 }, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "objectgroup";
     x: number;
     y: number;
+    id: number;
+    opacity: number;
     visible: boolean;
     draworder: string;
-    opacity: number;
     objects: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -2322,6 +2349,8 @@ declare const TiledObjectLayer: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -2333,92 +2362,90 @@ declare const TiledObjectLayer: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }[];
     color?: string | undefined;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "objectgroup";
     x: number;
     y: number;
+    id: number;
+    opacity: number;
     visible: boolean;
     draworder: string;
-    opacity: number;
     objects: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -2428,6 +2455,8 @@ declare const TiledObjectLayer: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -2439,68 +2468,39 @@ declare const TiledObjectLayer: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }[];
     color?: string | undefined;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -2520,85 +2520,85 @@ declare const TiledImageLayer: z.ZodObject<{
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -2610,44 +2610,44 @@ declare const TiledImageLayer: z.ZodObject<{
     offsety: z.ZodOptional<z.ZodNumber>;
     transparentcolor: z.ZodOptional<z.ZodString>;
 }, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "imagelayer";
     x: number;
     y: number;
-    visible: boolean;
+    id: number;
     opacity: number;
+    visible: boolean;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -2657,44 +2657,44 @@ declare const TiledImageLayer: z.ZodObject<{
     repeaty?: boolean | undefined;
     transparentcolor?: string | undefined;
 }, {
-    id: number;
     name: string;
     type: "imagelayer";
     x: number;
     y: number;
-    visible: boolean;
+    id: number;
     opacity: number;
+    visible: boolean;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -2719,85 +2719,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -2810,96 +2810,96 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodOptional<z.ZodString>;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: string;
     encoding: "base64";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
     compression?: string | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: string;
     encoding: "base64";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -2920,85 +2920,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -3010,95 +3010,95 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     data: z.ZodArray<z.ZodNumber, "many">;
     encoding: z.ZodLiteral<"csv">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "csv";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "csv";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -3118,85 +3118,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -3209,97 +3209,97 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodLiteral<"gzip">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "gzip";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "gzip";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -3319,85 +3319,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -3410,97 +3410,97 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodLiteral<"zlib">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zlib";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zlib";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -3520,85 +3520,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -3611,97 +3611,97 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     encoding: z.ZodLiteral<"base64">;
     compression: z.ZodLiteral<"zstandard">;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zstandard";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     data: number[];
     encoding: "base64";
     compression: "zstandard";
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -3721,85 +3721,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -3817,16 +3817,16 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         height: z.ZodNumber;
         data: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     }, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     }>, z.ZodObject<{
         x: z.ZodNumber;
@@ -3835,77 +3835,77 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         height: z.ZodNumber;
         data: z.ZodArray<z.ZodNumber, "many">;
     }, "strip", z.ZodTypeAny, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     }, {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     }>]>, "many">;
     encoding: z.ZodOptional<z.ZodString>;
     compression: z.ZodOptional<z.ZodString>;
     data: z.ZodUndefined;
 }>, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     startx: number;
     starty: number;
     chunks: ({
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     } | {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -3914,61 +3914,61 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     encoding?: string | undefined;
     compression?: string | undefined;
 }, {
-    id: number;
     name: string;
     type: "tilelayer";
-    x: number;
-    y: number;
     height: number;
     width: number;
-    visible: boolean;
+    x: number;
+    y: number;
+    id: number;
     opacity: number;
+    visible: boolean;
     startx: number;
     starty: number;
     chunks: ({
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: string;
     } | {
-        x: number;
-        y: number;
         height: number;
         width: number;
+        x: number;
+        y: number;
         data: number[];
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -3990,85 +3990,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     tintcolor: z.ZodOptional<z.ZodString>;
@@ -4080,44 +4080,44 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     offsety: z.ZodOptional<z.ZodNumber>;
     transparentcolor: z.ZodOptional<z.ZodString>;
 }, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "imagelayer";
     x: number;
     y: number;
-    visible: boolean;
+    id: number;
     opacity: number;
+    visible: boolean;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -4127,44 +4127,44 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
     repeaty?: boolean | undefined;
     transparentcolor?: string | undefined;
 }, {
-    id: number;
     name: string;
     type: "imagelayer";
     x: number;
     y: number;
-    visible: boolean;
+    id: number;
     opacity: number;
+    visible: boolean;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -4193,85 +4193,85 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     visible: z.ZodBoolean;
     objects: z.ZodArray<z.ZodObject<{
@@ -4338,97 +4338,124 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
     }, "strip", z.ZodTypeAny, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -4438,6 +4465,8 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -4449,46 +4478,44 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -4498,6 +4525,8 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -4509,56 +4538,54 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }>, "many">;
 }, "strip", z.ZodTypeAny, {
-    id: number;
     name: string;
     type: "objectgroup";
     x: number;
     y: number;
+    id: number;
+    opacity: number;
     visible: boolean;
     draworder: string;
-    opacity: number;
     objects: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -4568,6 +4595,8 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -4579,92 +4608,90 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }[];
     color?: string | undefined;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
     offsety?: number | undefined;
 }, {
-    id: number;
     name: string;
     type: "objectgroup";
     x: number;
     y: number;
+    id: number;
+    opacity: number;
     visible: boolean;
     draworder: string;
-    opacity: number;
     objects: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -4674,6 +4701,8 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -4685,68 +4714,39 @@ declare const TiledLayer: z.ZodUnion<[z.ZodUnion<[z.ZodObject<z.objectUtil.exten
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }[];
     color?: string | undefined;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
-    class?: string | undefined;
     parallaxx?: number | undefined;
     parallaxy?: number | undefined;
     offsetx?: number | undefined;
@@ -4826,97 +4826,124 @@ declare const TiledObjectGroup: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
     }, "strip", z.ZodTypeAny, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -4926,6 +4953,8 @@ declare const TiledObjectGroup: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -4937,46 +4966,44 @@ declare const TiledObjectGroup: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -4986,6 +5013,8 @@ declare const TiledObjectGroup: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -4997,140 +5026,138 @@ declare const TiledObjectGroup: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }>, "many">;
     properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
 }, "strip", z.ZodTypeAny, {
     name: string;
     type: "objectgroup";
     x: number;
     y: number;
+    opacity: number;
     visible: boolean;
     draworder: string;
-    opacity: number;
     objects: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -5140,6 +5167,8 @@ declare const TiledObjectGroup: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -5151,65 +5180,36 @@ declare const TiledObjectGroup: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }[];
     id?: number | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
 }, {
@@ -5217,20 +5217,47 @@ declare const TiledObjectGroup: z.ZodObject<{
     type: "objectgroup";
     x: number;
     y: number;
+    opacity: number;
     visible: boolean;
     draworder: string;
-    opacity: number;
     objects: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -5240,6 +5267,8 @@ declare const TiledObjectGroup: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -5251,65 +5280,36 @@ declare const TiledObjectGroup: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }[];
     id?: number | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     tintcolor?: string | undefined;
 }>;
@@ -5400,97 +5400,124 @@ export declare const TiledTile: z.ZodObject<{
                 type: z.ZodLiteral<"int">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"bool">;
                 value: z.ZodBoolean;
             }, "strip", z.ZodTypeAny, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"float">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"string">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"file">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"color">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"object">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }>]>, "many">>;
         }, "strip", z.ZodTypeAny, {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -5500,6 +5527,8 @@ export declare const TiledTile: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -5511,46 +5540,44 @@ export declare const TiledTile: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }, {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -5560,6 +5587,8 @@ export declare const TiledTile: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -5571,140 +5600,138 @@ export declare const TiledTile: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }>, "many">;
         properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
     }, "strip", z.ZodTypeAny, {
         name: string;
         type: "objectgroup";
         x: number;
         y: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -5714,6 +5741,8 @@ export declare const TiledTile: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -5725,65 +5754,36 @@ export declare const TiledTile: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         id?: number | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
     }, {
@@ -5791,20 +5791,47 @@ export declare const TiledTile: z.ZodObject<{
         type: "objectgroup";
         x: number;
         y: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -5814,6 +5841,8 @@ export declare const TiledTile: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -5825,65 +5854,36 @@ export declare const TiledTile: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         id?: number | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
     }>>;
@@ -5893,85 +5893,85 @@ export declare const TiledTile: z.ZodObject<{
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
     image: z.ZodOptional<z.ZodString>;
     imageheight: z.ZodOptional<z.ZodNumber>;
@@ -5980,53 +5980,80 @@ export declare const TiledTile: z.ZodObject<{
     id: number;
     type?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     objectgroup?: {
         name: string;
         type: "objectgroup";
         x: number;
         y: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -6036,6 +6063,8 @@ export declare const TiledTile: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -6047,127 +6076,125 @@ export declare const TiledTile: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         id?: number | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
     } | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
-    imageheight?: number | undefined;
     animation?: {
         duration: number;
         tileid: number;
     }[] | undefined;
     probability?: number | undefined;
+    imageheight?: number | undefined;
+    imagewidth?: number | undefined;
 }, {
     id: number;
     type?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
     objectgroup?: {
         name: string;
         type: "objectgroup";
         x: number;
         y: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -6177,6 +6204,8 @@ export declare const TiledTile: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -6188,76 +6217,47 @@ export declare const TiledTile: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         id?: number | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
     } | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
-    imageheight?: number | undefined;
     animation?: {
         duration: number;
         tileid: number;
     }[] | undefined;
     probability?: number | undefined;
+    imageheight?: number | undefined;
+    imagewidth?: number | undefined;
 }>;
 declare const TiledTilesetEmbedded: z.ZodObject<{
     name: z.ZodString;
@@ -6383,97 +6383,124 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     type: z.ZodLiteral<"int">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"bool">;
                     value: z.ZodBoolean;
                 }, "strip", z.ZodTypeAny, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"float">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"string">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"file">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"color">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"object">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }>]>, "many">>;
             }, "strip", z.ZodTypeAny, {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -6483,6 +6510,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -6494,46 +6523,44 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }, {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -6543,6 +6570,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -6554,140 +6583,138 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }>, "many">;
             properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"int">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"bool">;
                 value: z.ZodBoolean;
             }, "strip", z.ZodTypeAny, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"float">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"string">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"file">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"color">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"object">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }>]>, "many">>;
         }, "strip", z.ZodTypeAny, {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -6697,6 +6724,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -6708,65 +6737,36 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         }, {
@@ -6774,20 +6774,47 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -6797,6 +6824,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -6808,65 +6837,36 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         }>>;
@@ -6876,85 +6876,85 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         image: z.ZodOptional<z.ZodString>;
         imageheight: z.ZodOptional<z.ZodNumber>;
@@ -6963,53 +6963,80 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -7019,6 +7046,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -7030,127 +7059,125 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }, {
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -7160,6 +7187,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -7171,161 +7200,132 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }>, "many">>;
     properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
 }, "strip", z.ZodTypeAny, {
     name: string;
@@ -7335,41 +7335,41 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
     tilecount: number;
     spacing: number;
     margin: number;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    firstgid?: number | undefined;
-    class?: string | undefined;
-    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
     imageheight?: number | undefined;
+    imagewidth?: number | undefined;
+    firstgid?: number | undefined;
+    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     grid?: {
         height: number;
         width: number;
@@ -7383,53 +7383,80 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -7439,6 +7466,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -7450,76 +7479,47 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }[] | undefined;
 }, {
     name: string;
@@ -7529,41 +7529,41 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
     tilecount: number;
     spacing: number;
     margin: number;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    firstgid?: number | undefined;
-    class?: string | undefined;
-    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
     imageheight?: number | undefined;
+    imagewidth?: number | undefined;
+    firstgid?: number | undefined;
+    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     grid?: {
         height: number;
         width: number;
@@ -7577,53 +7577,80 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -7633,6 +7660,8 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -7644,76 +7673,47 @@ declare const TiledTilesetEmbedded: z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }[] | undefined;
 }>;
 export declare function isTiledTilesetSingleImage(x: TiledTileset): x is TiledTilesetEmbedded & {
@@ -7846,97 +7846,124 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     type: z.ZodLiteral<"int">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"bool">;
                     value: z.ZodBoolean;
                 }, "strip", z.ZodTypeAny, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"float">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"string">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"file">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"color">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"object">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }>]>, "many">>;
             }, "strip", z.ZodTypeAny, {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -7946,6 +7973,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -7957,46 +7986,44 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }, {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -8006,6 +8033,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -8017,140 +8046,138 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }>, "many">;
             properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"int">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"bool">;
                 value: z.ZodBoolean;
             }, "strip", z.ZodTypeAny, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"float">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"string">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"file">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"color">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"object">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }>]>, "many">>;
         }, "strip", z.ZodTypeAny, {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -8160,6 +8187,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -8171,65 +8200,36 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         }, {
@@ -8237,20 +8237,47 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -8260,6 +8287,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -8271,65 +8300,36 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         }>>;
@@ -8339,85 +8339,85 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         image: z.ZodOptional<z.ZodString>;
         imageheight: z.ZodOptional<z.ZodNumber>;
@@ -8426,53 +8426,80 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -8482,6 +8509,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -8493,127 +8522,125 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }, {
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -8623,6 +8650,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -8634,161 +8663,132 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }>, "many">>;
     properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
 }, {
     tiledversion: z.ZodOptional<z.ZodString>;
@@ -8803,41 +8803,41 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
     tilecount: number;
     spacing: number;
     margin: number;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    firstgid?: number | undefined;
-    class?: string | undefined;
-    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
     imageheight?: number | undefined;
+    imagewidth?: number | undefined;
+    firstgid?: number | undefined;
+    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     grid?: {
         height: number;
         width: number;
@@ -8851,53 +8851,80 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -8907,6 +8934,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -8918,76 +8947,47 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }[] | undefined;
     tiledversion?: string | undefined;
     version?: string | undefined;
@@ -9000,41 +9000,41 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
     tilecount: number;
     spacing: number;
     margin: number;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    firstgid?: number | undefined;
-    class?: string | undefined;
-    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
     imageheight?: number | undefined;
+    imagewidth?: number | undefined;
+    firstgid?: number | undefined;
+    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     grid?: {
         height: number;
         width: number;
@@ -9048,53 +9048,80 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -9104,6 +9131,8 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -9115,76 +9144,47 @@ export declare const TiledTilesetFile: z.ZodObject<z.objectUtil.extendShape<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }[] | undefined;
     tiledversion?: string | undefined;
     version?: string | undefined;
@@ -9323,97 +9323,124 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     type: z.ZodLiteral<"int">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"bool">;
                     value: z.ZodBoolean;
                 }, "strip", z.ZodTypeAny, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"float">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"string">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"file">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"color">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"object">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }>]>, "many">>;
             }, "strip", z.ZodTypeAny, {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -9423,6 +9450,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -9434,46 +9463,44 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }, {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -9483,6 +9510,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -9494,140 +9523,138 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }>, "many">;
             properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"int">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"bool">;
                 value: z.ZodBoolean;
             }, "strip", z.ZodTypeAny, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"float">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"string">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"file">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"color">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"object">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }>]>, "many">>;
         }, "strip", z.ZodTypeAny, {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -9637,6 +9664,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -9648,65 +9677,36 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         }, {
@@ -9714,20 +9714,47 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -9737,6 +9764,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -9748,65 +9777,36 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         }>>;
@@ -9816,85 +9816,85 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         image: z.ZodOptional<z.ZodString>;
         imageheight: z.ZodOptional<z.ZodNumber>;
@@ -9903,53 +9903,80 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -9959,6 +9986,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -9970,127 +9999,125 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }, {
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -10100,6 +10127,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -10111,161 +10140,132 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }>, "many">>;
     properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
 }, "strip", z.ZodTypeAny, {
     name: string;
@@ -10275,41 +10275,41 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
     tilecount: number;
     spacing: number;
     margin: number;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    firstgid?: number | undefined;
-    class?: string | undefined;
-    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
     imageheight?: number | undefined;
+    imagewidth?: number | undefined;
+    firstgid?: number | undefined;
+    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     grid?: {
         height: number;
         width: number;
@@ -10323,53 +10323,80 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -10379,6 +10406,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -10390,76 +10419,47 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }[] | undefined;
 }, {
     name: string;
@@ -10469,41 +10469,41 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
     tilecount: number;
     spacing: number;
     margin: number;
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    firstgid?: number | undefined;
-    class?: string | undefined;
-    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     image?: string | undefined;
-    imagewidth?: number | undefined;
     imageheight?: number | undefined;
+    imagewidth?: number | undefined;
+    firstgid?: number | undefined;
+    objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
     grid?: {
         height: number;
         width: number;
@@ -10517,53 +10517,80 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
         id: number;
         type?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         objectgroup?: {
             name: string;
             type: "objectgroup";
             x: number;
             y: number;
+            opacity: number;
             visible: boolean;
             draworder: string;
-            opacity: number;
             objects: {
-                id?: number | undefined;
                 name?: string | undefined;
                 type?: string | undefined;
-                x?: number | undefined;
-                y?: number | undefined;
-                rotation?: number | undefined;
                 height?: number | undefined;
                 width?: number | undefined;
+                x?: number | undefined;
+                y?: number | undefined;
+                id?: number | undefined;
+                properties?: ({
+                    name: string;
+                    type: "int";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "bool";
+                    value: boolean;
+                } | {
+                    name: string;
+                    type: "float";
+                    value: number;
+                } | {
+                    name: string;
+                    type: "string";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "file";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "color";
+                    value: string;
+                } | {
+                    name: string;
+                    type: "object";
+                    value: number;
+                })[] | undefined;
                 visible?: boolean | undefined;
-                gid?: number | undefined;
                 text?: {
                     text: string;
                     color?: string | undefined;
@@ -10573,6 +10600,8 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     halign?: "left" | "center" | "right" | "justify" | undefined;
                     valign?: "center" | "top" | "bottom" | undefined;
                 } | undefined;
+                rotation?: number | undefined;
+                gid?: number | undefined;
                 point?: boolean | undefined;
                 ellipse?: boolean | undefined;
                 polyline?: {
@@ -10584,76 +10613,47 @@ export declare const TiledTileset: z.ZodUnion<[z.ZodObject<{
                     y: number;
                 }[] | undefined;
                 template?: string | undefined;
-                properties?: ({
-                    value: number;
-                    name: string;
-                    type: "int";
-                } | {
-                    value: boolean;
-                    name: string;
-                    type: "bool";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "float";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "string";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "file";
-                } | {
-                    value: string;
-                    name: string;
-                    type: "color";
-                } | {
-                    value: number;
-                    name: string;
-                    type: "object";
-                })[] | undefined;
             }[];
             id?: number | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             tintcolor?: string | undefined;
         } | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
-        imageheight?: number | undefined;
         animation?: {
             duration: number;
             tileid: number;
         }[] | undefined;
         probability?: number | undefined;
+        imageheight?: number | undefined;
+        imagewidth?: number | undefined;
     }[] | undefined;
 }>, z.ZodObject<{
     firstgid: z.ZodNumber;
@@ -10730,99 +10730,126 @@ export declare const TiledTemplate: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
     }, {
         id: z.ZodOptional<z.ZodNumber>;
     }>, "strip", z.ZodTypeAny, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -10832,6 +10859,8 @@ export declare const TiledTemplate: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -10843,46 +10872,44 @@ export declare const TiledTemplate: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }, {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -10892,6 +10919,8 @@ export declare const TiledTemplate: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -10903,35 +10932,6 @@ export declare const TiledTemplate: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     }>;
     tileset: z.ZodOptional<z.ZodObject<{
         firstgid: z.ZodNumber;
@@ -10946,16 +10946,43 @@ export declare const TiledTemplate: z.ZodObject<{
     type: z.ZodLiteral<"template">;
 }, "strip", z.ZodTypeAny, {
     object: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -10965,6 +10992,8 @@ export declare const TiledTemplate: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -10976,35 +11005,6 @@ export declare const TiledTemplate: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     };
     type: "template";
     tileset?: {
@@ -11013,16 +11013,43 @@ export declare const TiledTemplate: z.ZodObject<{
     } | undefined;
 }, {
     object: {
-        id?: number | undefined;
         name?: string | undefined;
         type?: string | undefined;
-        x?: number | undefined;
-        y?: number | undefined;
-        rotation?: number | undefined;
         height?: number | undefined;
         width?: number | undefined;
+        x?: number | undefined;
+        y?: number | undefined;
+        id?: number | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
         visible?: boolean | undefined;
-        gid?: number | undefined;
         text?: {
             text: string;
             color?: string | undefined;
@@ -11032,6 +11059,8 @@ export declare const TiledTemplate: z.ZodObject<{
             halign?: "left" | "center" | "right" | "justify" | undefined;
             valign?: "center" | "top" | "bottom" | undefined;
         } | undefined;
+        rotation?: number | undefined;
+        gid?: number | undefined;
         point?: boolean | undefined;
         ellipse?: boolean | undefined;
         polyline?: {
@@ -11043,35 +11072,6 @@ export declare const TiledTemplate: z.ZodObject<{
             y: number;
         }[] | undefined;
         template?: string | undefined;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
     };
     type: "template";
     tileset?: {
@@ -11115,85 +11115,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         tintcolor: z.ZodOptional<z.ZodString>;
@@ -11206,96 +11206,96 @@ export declare const TiledMap: z.ZodObject<{
         encoding: z.ZodLiteral<"base64">;
         compression: z.ZodOptional<z.ZodString>;
     }>, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: string;
         encoding: "base64";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
         compression?: string | undefined;
     }, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: string;
         encoding: "base64";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -11316,85 +11316,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         tintcolor: z.ZodOptional<z.ZodString>;
@@ -11406,95 +11406,95 @@ export declare const TiledMap: z.ZodObject<{
         data: z.ZodArray<z.ZodNumber, "many">;
         encoding: z.ZodLiteral<"csv">;
     }>, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "csv";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
     }, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "csv";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -11514,85 +11514,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         tintcolor: z.ZodOptional<z.ZodString>;
@@ -11605,97 +11605,97 @@ export declare const TiledMap: z.ZodObject<{
         encoding: z.ZodLiteral<"base64">;
         compression: z.ZodLiteral<"gzip">;
     }>, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "base64";
         compression: "gzip";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
     }, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "base64";
         compression: "gzip";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -11715,85 +11715,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         tintcolor: z.ZodOptional<z.ZodString>;
@@ -11806,97 +11806,97 @@ export declare const TiledMap: z.ZodObject<{
         encoding: z.ZodLiteral<"base64">;
         compression: z.ZodLiteral<"zlib">;
     }>, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "base64";
         compression: "zlib";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
     }, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "base64";
         compression: "zlib";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -11916,85 +11916,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         tintcolor: z.ZodOptional<z.ZodString>;
@@ -12007,97 +12007,97 @@ export declare const TiledMap: z.ZodObject<{
         encoding: z.ZodLiteral<"base64">;
         compression: z.ZodLiteral<"zstandard">;
     }>, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "base64";
         compression: "zstandard";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
     }, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         data: number[];
         encoding: "base64";
         compression: "zstandard";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -12117,85 +12117,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         tintcolor: z.ZodOptional<z.ZodString>;
@@ -12213,16 +12213,16 @@ export declare const TiledMap: z.ZodObject<{
             height: z.ZodNumber;
             data: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: string;
         }, {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: string;
         }>, z.ZodObject<{
             x: z.ZodNumber;
@@ -12231,77 +12231,77 @@ export declare const TiledMap: z.ZodObject<{
             height: z.ZodNumber;
             data: z.ZodArray<z.ZodNumber, "many">;
         }, "strip", z.ZodTypeAny, {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: number[];
         }, {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: number[];
         }>]>, "many">;
         encoding: z.ZodOptional<z.ZodString>;
         compression: z.ZodOptional<z.ZodString>;
         data: z.ZodUndefined;
     }>, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         startx: number;
         starty: number;
         chunks: ({
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: string;
         } | {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: number[];
         })[];
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -12310,61 +12310,61 @@ export declare const TiledMap: z.ZodObject<{
         encoding?: string | undefined;
         compression?: string | undefined;
     }, {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
+        visible: boolean;
         startx: number;
         starty: number;
         chunks: ({
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: string;
         } | {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: number[];
         })[];
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -12386,85 +12386,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         tintcolor: z.ZodOptional<z.ZodString>;
@@ -12476,44 +12476,44 @@ export declare const TiledMap: z.ZodObject<{
         offsety: z.ZodOptional<z.ZodNumber>;
         transparentcolor: z.ZodOptional<z.ZodString>;
     }, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "imagelayer";
         x: number;
         y: number;
-        visible: boolean;
+        id: number;
         opacity: number;
+        visible: boolean;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -12523,44 +12523,44 @@ export declare const TiledMap: z.ZodObject<{
         repeaty?: boolean | undefined;
         transparentcolor?: string | undefined;
     }, {
-        id: number;
         name: string;
         type: "imagelayer";
         x: number;
         y: number;
-        visible: boolean;
+        id: number;
         opacity: number;
+        visible: boolean;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -12589,85 +12589,85 @@ export declare const TiledMap: z.ZodObject<{
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
         visible: z.ZodBoolean;
         objects: z.ZodArray<z.ZodObject<{
@@ -12734,97 +12734,124 @@ export declare const TiledMap: z.ZodObject<{
                 type: z.ZodLiteral<"int">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"bool">;
                 value: z.ZodBoolean;
             }, "strip", z.ZodTypeAny, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"float">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"string">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"file">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"color">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"object">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }>]>, "many">>;
         }, "strip", z.ZodTypeAny, {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -12834,6 +12861,8 @@ export declare const TiledMap: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -12845,46 +12874,44 @@ export declare const TiledMap: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }, {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -12894,6 +12921,8 @@ export declare const TiledMap: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -12905,56 +12934,54 @@ export declare const TiledMap: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }>, "many">;
     }, "strip", z.ZodTypeAny, {
-        id: number;
         name: string;
         type: "objectgroup";
         x: number;
         y: number;
+        id: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -12964,6 +12991,8 @@ export declare const TiledMap: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -12975,92 +13004,90 @@ export declare const TiledMap: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         color?: string | undefined;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
     }, {
-        id: number;
         name: string;
         type: "objectgroup";
         x: number;
         y: number;
+        id: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -13070,6 +13097,8 @@ export declare const TiledMap: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -13081,68 +13110,39 @@ export declare const TiledMap: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         color?: string | undefined;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -13272,97 +13272,124 @@ export declare const TiledMap: z.ZodObject<{
                         type: z.ZodLiteral<"int">;
                         value: z.ZodNumber;
                     }, "strip", z.ZodTypeAny, {
-                        value: number;
                         name: string;
                         type: "int";
+                        value: number;
                     }, {
-                        value: number;
                         name: string;
                         type: "int";
+                        value: number;
                     }>, z.ZodObject<{
                         name: z.ZodString;
                         type: z.ZodLiteral<"bool">;
                         value: z.ZodBoolean;
                     }, "strip", z.ZodTypeAny, {
-                        value: boolean;
                         name: string;
                         type: "bool";
+                        value: boolean;
                     }, {
-                        value: boolean;
                         name: string;
                         type: "bool";
+                        value: boolean;
                     }>, z.ZodObject<{
                         name: z.ZodString;
                         type: z.ZodLiteral<"float">;
                         value: z.ZodNumber;
                     }, "strip", z.ZodTypeAny, {
-                        value: number;
                         name: string;
                         type: "float";
+                        value: number;
                     }, {
-                        value: number;
                         name: string;
                         type: "float";
+                        value: number;
                     }>, z.ZodObject<{
                         name: z.ZodString;
                         type: z.ZodLiteral<"string">;
                         value: z.ZodString;
                     }, "strip", z.ZodTypeAny, {
-                        value: string;
                         name: string;
                         type: "string";
+                        value: string;
                     }, {
-                        value: string;
                         name: string;
                         type: "string";
+                        value: string;
                     }>, z.ZodObject<{
                         name: z.ZodString;
                         type: z.ZodLiteral<"file">;
                         value: z.ZodString;
                     }, "strip", z.ZodTypeAny, {
-                        value: string;
                         name: string;
                         type: "file";
+                        value: string;
                     }, {
-                        value: string;
                         name: string;
                         type: "file";
+                        value: string;
                     }>, z.ZodObject<{
                         name: z.ZodString;
                         type: z.ZodLiteral<"color">;
                         value: z.ZodString;
                     }, "strip", z.ZodTypeAny, {
-                        value: string;
                         name: string;
                         type: "color";
+                        value: string;
                     }, {
-                        value: string;
                         name: string;
                         type: "color";
+                        value: string;
                     }>, z.ZodObject<{
                         name: z.ZodString;
                         type: z.ZodLiteral<"object">;
                         value: z.ZodNumber;
                     }, "strip", z.ZodTypeAny, {
-                        value: number;
                         name: string;
                         type: "object";
+                        value: number;
                     }, {
-                        value: number;
                         name: string;
                         type: "object";
+                        value: number;
                     }>]>, "many">>;
                 }, "strip", z.ZodTypeAny, {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -13372,6 +13399,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -13383,46 +13412,44 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }, {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -13432,6 +13459,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -13443,140 +13472,138 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }>, "many">;
                 properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"int">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"bool">;
                     value: z.ZodBoolean;
                 }, "strip", z.ZodTypeAny, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }, {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"float">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"string">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "string";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"file">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "file";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"color">;
                     value: z.ZodString;
                 }, "strip", z.ZodTypeAny, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }, {
-                    value: string;
                     name: string;
                     type: "color";
+                    value: string;
                 }>, z.ZodObject<{
                     name: z.ZodString;
                     type: z.ZodLiteral<"object">;
                     value: z.ZodNumber;
                 }, "strip", z.ZodTypeAny, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }, {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 }>]>, "many">>;
             }, "strip", z.ZodTypeAny, {
                 name: string;
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -13586,6 +13613,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -13597,65 +13626,36 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             }, {
@@ -13663,20 +13663,47 @@ export declare const TiledMap: z.ZodObject<{
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -13686,6 +13713,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -13697,65 +13726,36 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             }>>;
@@ -13765,85 +13765,85 @@ export declare const TiledMap: z.ZodObject<{
                 type: z.ZodLiteral<"int">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"bool">;
                 value: z.ZodBoolean;
             }, "strip", z.ZodTypeAny, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }, {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"float">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"string">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "string";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"file">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "file";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"color">;
                 value: z.ZodString;
             }, "strip", z.ZodTypeAny, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }, {
-                value: string;
                 name: string;
                 type: "color";
+                value: string;
             }>, z.ZodObject<{
                 name: z.ZodString;
                 type: z.ZodLiteral<"object">;
                 value: z.ZodNumber;
             }, "strip", z.ZodTypeAny, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }, {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             }>]>, "many">>;
             image: z.ZodOptional<z.ZodString>;
             imageheight: z.ZodOptional<z.ZodNumber>;
@@ -13852,53 +13852,80 @@ export declare const TiledMap: z.ZodObject<{
             id: number;
             type?: string | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             objectgroup?: {
                 name: string;
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -13908,6 +13935,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -13919,127 +13948,125 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             } | undefined;
             image?: string | undefined;
-            imagewidth?: number | undefined;
-            imageheight?: number | undefined;
             animation?: {
                 duration: number;
                 tileid: number;
             }[] | undefined;
             probability?: number | undefined;
+            imageheight?: number | undefined;
+            imagewidth?: number | undefined;
         }, {
             id: number;
             type?: string | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             objectgroup?: {
                 name: string;
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -14049,6 +14076,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -14060,161 +14089,132 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             } | undefined;
             image?: string | undefined;
-            imagewidth?: number | undefined;
-            imageheight?: number | undefined;
             animation?: {
                 duration: number;
                 tileid: number;
             }[] | undefined;
             probability?: number | undefined;
+            imageheight?: number | undefined;
+            imagewidth?: number | undefined;
         }>, "many">>;
         properties: z.ZodOptional<z.ZodArray<z.ZodDiscriminatedUnion<"type", [z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"int">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "int";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"bool">;
             value: z.ZodBoolean;
         }, "strip", z.ZodTypeAny, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }, {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"float">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"string">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "string";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"file">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "file";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"color">;
             value: z.ZodString;
         }, "strip", z.ZodTypeAny, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }, {
-            value: string;
             name: string;
             type: "color";
+            value: string;
         }>, z.ZodObject<{
             name: z.ZodString;
             type: z.ZodLiteral<"object">;
             value: z.ZodNumber;
         }, "strip", z.ZodTypeAny, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }, {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         }>]>, "many">>;
     }, "strip", z.ZodTypeAny, {
         name: string;
@@ -14224,41 +14224,41 @@ export declare const TiledMap: z.ZodObject<{
         tilecount: number;
         spacing: number;
         margin: number;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
-        firstgid?: number | undefined;
-        class?: string | undefined;
-        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
         imageheight?: number | undefined;
+        imagewidth?: number | undefined;
+        firstgid?: number | undefined;
+        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         grid?: {
             height: number;
             width: number;
@@ -14272,53 +14272,80 @@ export declare const TiledMap: z.ZodObject<{
             id: number;
             type?: string | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             objectgroup?: {
                 name: string;
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -14328,6 +14355,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -14339,76 +14368,47 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             } | undefined;
             image?: string | undefined;
-            imagewidth?: number | undefined;
-            imageheight?: number | undefined;
             animation?: {
                 duration: number;
                 tileid: number;
             }[] | undefined;
             probability?: number | undefined;
+            imageheight?: number | undefined;
+            imagewidth?: number | undefined;
         }[] | undefined;
     }, {
         name: string;
@@ -14418,41 +14418,41 @@ export declare const TiledMap: z.ZodObject<{
         tilecount: number;
         spacing: number;
         margin: number;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
-        firstgid?: number | undefined;
-        class?: string | undefined;
-        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
         imageheight?: number | undefined;
+        imagewidth?: number | undefined;
+        firstgid?: number | undefined;
+        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         grid?: {
             height: number;
             width: number;
@@ -14466,53 +14466,80 @@ export declare const TiledMap: z.ZodObject<{
             id: number;
             type?: string | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             objectgroup?: {
                 name: string;
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -14522,6 +14549,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -14533,76 +14562,47 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             } | undefined;
             image?: string | undefined;
-            imagewidth?: number | undefined;
-            imageheight?: number | undefined;
             animation?: {
                 duration: number;
                 tileid: number;
             }[] | undefined;
             probability?: number | undefined;
+            imageheight?: number | undefined;
+            imagewidth?: number | undefined;
         }[] | undefined;
     }>, z.ZodObject<{
         firstgid: z.ZodNumber;
@@ -14619,93 +14619,93 @@ export declare const TiledMap: z.ZodObject<{
         type: z.ZodLiteral<"int">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "int";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"bool">;
         value: z.ZodBoolean;
     }, "strip", z.ZodTypeAny, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }, {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"float">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"string">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "string";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"file">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "file";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"color">;
         value: z.ZodString;
     }, "strip", z.ZodTypeAny, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }, {
-        value: string;
         name: string;
         type: "color";
+        value: string;
     }>, z.ZodObject<{
         name: z.ZodString;
         type: z.ZodLiteral<"object">;
         value: z.ZodNumber;
     }, "strip", z.ZodTypeAny, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }, {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     }>]>, "many">>;
 }, "strip", z.ZodTypeAny, {
     type: string;
     height: number;
     width: number;
-    orientation: "isometric" | "orthogonal" | "staggered" | "hexagonal";
     tileheight: number;
     tilewidth: number;
+    orientation: "isometric" | "orthogonal" | "staggered" | "hexagonal";
     tiledversion: string;
     version: string;
     infinite: boolean;
@@ -14713,300 +14713,300 @@ export declare const TiledMap: z.ZodObject<{
     nextobjectid: number;
     renderorder: "right-down" | "right-up" | "left-down" | "left-up";
     layers: ({
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
-        data: string;
-        encoding: "base64";
+        visible: boolean;
+        data: number[];
+        encoding: "csv";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: number[];
+        encoding: "base64";
+        compression: "gzip";
         class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: number[];
+        encoding: "base64";
+        compression: "zlib";
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: number[];
+        encoding: "base64";
+        compression: "zstandard";
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: string;
+        encoding: "base64";
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
         compression?: string | undefined;
     } | {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
-        opacity: number;
-        data: number[];
-        encoding: "csv";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
+        x: number;
+        y: number;
         id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
-        visible: boolean;
         opacity: number;
-        data: number[];
-        encoding: "base64";
-        compression: "gzip";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
-        id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
         visible: boolean;
-        opacity: number;
-        data: number[];
-        encoding: "base64";
-        compression: "zlib";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
-        id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
-        visible: boolean;
-        opacity: number;
-        data: number[];
-        encoding: "base64";
-        compression: "zstandard";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
-        id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
-        visible: boolean;
-        opacity: number;
         startx: number;
         starty: number;
         chunks: ({
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: string;
         } | {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: number[];
         })[];
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -15015,72 +15015,52 @@ export declare const TiledMap: z.ZodObject<{
         encoding?: string | undefined;
         compression?: string | undefined;
     } | {
-        id: number;
-        name: string;
-        type: "imagelayer";
-        x: number;
-        y: number;
-        visible: boolean;
-        opacity: number;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-        image?: string | undefined;
-        repeatx?: boolean | undefined;
-        repeaty?: boolean | undefined;
-        transparentcolor?: string | undefined;
-    } | {
-        id: number;
         name: string;
         type: "objectgroup";
         x: number;
         y: number;
+        id: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -15090,6 +15070,8 @@ export declare const TiledMap: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -15101,77 +15083,92 @@ export declare const TiledMap: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         color?: string | undefined;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "imagelayer";
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+        image?: string | undefined;
+        repeatx?: boolean | undefined;
+        repeaty?: boolean | undefined;
+        transparentcolor?: string | undefined;
     })[];
     tilesets: ({
-        firstgid: number;
-        source: string;
-    } | {
         name: string;
         columns: number;
         tileheight: number;
@@ -15179,41 +15176,41 @@ export declare const TiledMap: z.ZodObject<{
         tilecount: number;
         spacing: number;
         margin: number;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
-        firstgid?: number | undefined;
-        class?: string | undefined;
-        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
         imageheight?: number | undefined;
+        imagewidth?: number | undefined;
+        firstgid?: number | undefined;
+        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         grid?: {
             height: number;
             width: number;
@@ -15227,53 +15224,80 @@ export declare const TiledMap: z.ZodObject<{
             id: number;
             type?: string | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             objectgroup?: {
                 name: string;
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -15283,6 +15307,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -15294,108 +15320,82 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             } | undefined;
             image?: string | undefined;
-            imagewidth?: number | undefined;
-            imageheight?: number | undefined;
             animation?: {
                 duration: number;
                 tileid: number;
             }[] | undefined;
             probability?: number | undefined;
+            imageheight?: number | undefined;
+            imagewidth?: number | undefined;
         }[] | undefined;
+    } | {
+        firstgid: number;
+        source: string;
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    class?: string | undefined;
     compressionlevel?: number | undefined;
     parallaxoriginx?: number | undefined;
     parallaxoriginy?: number | undefined;
@@ -15407,9 +15407,9 @@ export declare const TiledMap: z.ZodObject<{
     type: string;
     height: number;
     width: number;
-    orientation: "isometric" | "orthogonal" | "staggered" | "hexagonal";
     tileheight: number;
     tilewidth: number;
+    orientation: "isometric" | "orthogonal" | "staggered" | "hexagonal";
     tiledversion: string;
     version: string;
     infinite: boolean;
@@ -15417,300 +15417,300 @@ export declare const TiledMap: z.ZodObject<{
     nextobjectid: number;
     renderorder: "right-down" | "right-up" | "left-down" | "left-up";
     layers: ({
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
+        x: number;
+        y: number;
+        id: number;
         opacity: number;
-        data: string;
-        encoding: "base64";
+        visible: boolean;
+        data: number[];
+        encoding: "csv";
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: number[];
+        encoding: "base64";
+        compression: "gzip";
         class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: number[];
+        encoding: "base64";
+        compression: "zlib";
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: number[];
+        encoding: "base64";
+        compression: "zstandard";
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "tilelayer";
+        height: number;
+        width: number;
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        data: string;
+        encoding: "base64";
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
         compression?: string | undefined;
     } | {
-        id: number;
         name: string;
         type: "tilelayer";
-        x: number;
-        y: number;
         height: number;
         width: number;
-        visible: boolean;
-        opacity: number;
-        data: number[];
-        encoding: "csv";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
+        x: number;
+        y: number;
         id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
-        visible: boolean;
         opacity: number;
-        data: number[];
-        encoding: "base64";
-        compression: "gzip";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
-        id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
         visible: boolean;
-        opacity: number;
-        data: number[];
-        encoding: "base64";
-        compression: "zlib";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
-        id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
-        visible: boolean;
-        opacity: number;
-        data: number[];
-        encoding: "base64";
-        compression: "zstandard";
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-    } | {
-        id: number;
-        name: string;
-        type: "tilelayer";
-        x: number;
-        y: number;
-        height: number;
-        width: number;
-        visible: boolean;
-        opacity: number;
         startx: number;
         starty: number;
         chunks: ({
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: string;
         } | {
-            x: number;
-            y: number;
             height: number;
             width: number;
+            x: number;
+            y: number;
             data: number[];
         })[];
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
@@ -15719,72 +15719,52 @@ export declare const TiledMap: z.ZodObject<{
         encoding?: string | undefined;
         compression?: string | undefined;
     } | {
-        id: number;
-        name: string;
-        type: "imagelayer";
-        x: number;
-        y: number;
-        visible: boolean;
-        opacity: number;
-        properties?: ({
-            value: number;
-            name: string;
-            type: "int";
-        } | {
-            value: boolean;
-            name: string;
-            type: "bool";
-        } | {
-            value: number;
-            name: string;
-            type: "float";
-        } | {
-            value: string;
-            name: string;
-            type: "string";
-        } | {
-            value: string;
-            name: string;
-            type: "file";
-        } | {
-            value: string;
-            name: string;
-            type: "color";
-        } | {
-            value: number;
-            name: string;
-            type: "object";
-        })[] | undefined;
-        tintcolor?: string | undefined;
-        class?: string | undefined;
-        parallaxx?: number | undefined;
-        parallaxy?: number | undefined;
-        offsetx?: number | undefined;
-        offsety?: number | undefined;
-        image?: string | undefined;
-        repeatx?: boolean | undefined;
-        repeaty?: boolean | undefined;
-        transparentcolor?: string | undefined;
-    } | {
-        id: number;
         name: string;
         type: "objectgroup";
         x: number;
         y: number;
+        id: number;
+        opacity: number;
         visible: boolean;
         draworder: string;
-        opacity: number;
         objects: {
-            id?: number | undefined;
             name?: string | undefined;
             type?: string | undefined;
-            x?: number | undefined;
-            y?: number | undefined;
-            rotation?: number | undefined;
             height?: number | undefined;
             width?: number | undefined;
+            x?: number | undefined;
+            y?: number | undefined;
+            id?: number | undefined;
+            properties?: ({
+                name: string;
+                type: "int";
+                value: number;
+            } | {
+                name: string;
+                type: "bool";
+                value: boolean;
+            } | {
+                name: string;
+                type: "float";
+                value: number;
+            } | {
+                name: string;
+                type: "string";
+                value: string;
+            } | {
+                name: string;
+                type: "file";
+                value: string;
+            } | {
+                name: string;
+                type: "color";
+                value: string;
+            } | {
+                name: string;
+                type: "object";
+                value: number;
+            })[] | undefined;
             visible?: boolean | undefined;
-            gid?: number | undefined;
             text?: {
                 text: string;
                 color?: string | undefined;
@@ -15794,6 +15774,8 @@ export declare const TiledMap: z.ZodObject<{
                 halign?: "left" | "center" | "right" | "justify" | undefined;
                 valign?: "center" | "top" | "bottom" | undefined;
             } | undefined;
+            rotation?: number | undefined;
+            gid?: number | undefined;
             point?: boolean | undefined;
             ellipse?: boolean | undefined;
             polyline?: {
@@ -15805,77 +15787,92 @@ export declare const TiledMap: z.ZodObject<{
                 y: number;
             }[] | undefined;
             template?: string | undefined;
-            properties?: ({
-                value: number;
-                name: string;
-                type: "int";
-            } | {
-                value: boolean;
-                name: string;
-                type: "bool";
-            } | {
-                value: number;
-                name: string;
-                type: "float";
-            } | {
-                value: string;
-                name: string;
-                type: "string";
-            } | {
-                value: string;
-                name: string;
-                type: "file";
-            } | {
-                value: string;
-                name: string;
-                type: "color";
-            } | {
-                value: number;
-                name: string;
-                type: "object";
-            })[] | undefined;
         }[];
         color?: string | undefined;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
         tintcolor?: string | undefined;
-        class?: string | undefined;
         parallaxx?: number | undefined;
         parallaxy?: number | undefined;
         offsetx?: number | undefined;
         offsety?: number | undefined;
+    } | {
+        name: string;
+        type: "imagelayer";
+        x: number;
+        y: number;
+        id: number;
+        opacity: number;
+        visible: boolean;
+        class?: string | undefined;
+        properties?: ({
+            name: string;
+            type: "int";
+            value: number;
+        } | {
+            name: string;
+            type: "bool";
+            value: boolean;
+        } | {
+            name: string;
+            type: "float";
+            value: number;
+        } | {
+            name: string;
+            type: "string";
+            value: string;
+        } | {
+            name: string;
+            type: "file";
+            value: string;
+        } | {
+            name: string;
+            type: "color";
+            value: string;
+        } | {
+            name: string;
+            type: "object";
+            value: number;
+        })[] | undefined;
+        tintcolor?: string | undefined;
+        parallaxx?: number | undefined;
+        parallaxy?: number | undefined;
+        offsetx?: number | undefined;
+        offsety?: number | undefined;
+        image?: string | undefined;
+        repeatx?: boolean | undefined;
+        repeaty?: boolean | undefined;
+        transparentcolor?: string | undefined;
     })[];
     tilesets: ({
-        firstgid: number;
-        source: string;
-    } | {
         name: string;
         columns: number;
         tileheight: number;
@@ -15883,41 +15880,41 @@ export declare const TiledMap: z.ZodObject<{
         tilecount: number;
         spacing: number;
         margin: number;
+        class?: string | undefined;
         properties?: ({
-            value: number;
             name: string;
             type: "int";
+            value: number;
         } | {
-            value: boolean;
             name: string;
             type: "bool";
+            value: boolean;
         } | {
-            value: number;
             name: string;
             type: "float";
+            value: number;
         } | {
-            value: string;
             name: string;
             type: "string";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "file";
-        } | {
             value: string;
+        } | {
             name: string;
             type: "color";
+            value: string;
         } | {
-            value: number;
             name: string;
             type: "object";
+            value: number;
         })[] | undefined;
-        firstgid?: number | undefined;
-        class?: string | undefined;
-        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         image?: string | undefined;
-        imagewidth?: number | undefined;
         imageheight?: number | undefined;
+        imagewidth?: number | undefined;
+        firstgid?: number | undefined;
+        objectalignment?: "left" | "center" | "right" | "top" | "bottom" | "topleft" | "topright" | "bottomleft" | "bottomright" | undefined;
         grid?: {
             height: number;
             width: number;
@@ -15931,53 +15928,80 @@ export declare const TiledMap: z.ZodObject<{
             id: number;
             type?: string | undefined;
             properties?: ({
-                value: number;
                 name: string;
                 type: "int";
+                value: number;
             } | {
-                value: boolean;
                 name: string;
                 type: "bool";
+                value: boolean;
             } | {
-                value: number;
                 name: string;
                 type: "float";
+                value: number;
             } | {
-                value: string;
                 name: string;
                 type: "string";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "file";
-            } | {
                 value: string;
+            } | {
                 name: string;
                 type: "color";
+                value: string;
             } | {
-                value: number;
                 name: string;
                 type: "object";
+                value: number;
             })[] | undefined;
             objectgroup?: {
                 name: string;
                 type: "objectgroup";
                 x: number;
                 y: number;
+                opacity: number;
                 visible: boolean;
                 draworder: string;
-                opacity: number;
                 objects: {
-                    id?: number | undefined;
                     name?: string | undefined;
                     type?: string | undefined;
-                    x?: number | undefined;
-                    y?: number | undefined;
-                    rotation?: number | undefined;
                     height?: number | undefined;
                     width?: number | undefined;
+                    x?: number | undefined;
+                    y?: number | undefined;
+                    id?: number | undefined;
+                    properties?: ({
+                        name: string;
+                        type: "int";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "bool";
+                        value: boolean;
+                    } | {
+                        name: string;
+                        type: "float";
+                        value: number;
+                    } | {
+                        name: string;
+                        type: "string";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "file";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "color";
+                        value: string;
+                    } | {
+                        name: string;
+                        type: "object";
+                        value: number;
+                    })[] | undefined;
                     visible?: boolean | undefined;
-                    gid?: number | undefined;
                     text?: {
                         text: string;
                         color?: string | undefined;
@@ -15987,6 +16011,8 @@ export declare const TiledMap: z.ZodObject<{
                         halign?: "left" | "center" | "right" | "justify" | undefined;
                         valign?: "center" | "top" | "bottom" | undefined;
                     } | undefined;
+                    rotation?: number | undefined;
+                    gid?: number | undefined;
                     point?: boolean | undefined;
                     ellipse?: boolean | undefined;
                     polyline?: {
@@ -15998,108 +16024,82 @@ export declare const TiledMap: z.ZodObject<{
                         y: number;
                     }[] | undefined;
                     template?: string | undefined;
-                    properties?: ({
-                        value: number;
-                        name: string;
-                        type: "int";
-                    } | {
-                        value: boolean;
-                        name: string;
-                        type: "bool";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "float";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "string";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "file";
-                    } | {
-                        value: string;
-                        name: string;
-                        type: "color";
-                    } | {
-                        value: number;
-                        name: string;
-                        type: "object";
-                    })[] | undefined;
                 }[];
                 id?: number | undefined;
                 properties?: ({
-                    value: number;
                     name: string;
                     type: "int";
+                    value: number;
                 } | {
-                    value: boolean;
                     name: string;
                     type: "bool";
+                    value: boolean;
                 } | {
-                    value: number;
                     name: string;
                     type: "float";
+                    value: number;
                 } | {
-                    value: string;
                     name: string;
                     type: "string";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "file";
-                } | {
                     value: string;
+                } | {
                     name: string;
                     type: "color";
+                    value: string;
                 } | {
-                    value: number;
                     name: string;
                     type: "object";
+                    value: number;
                 })[] | undefined;
                 tintcolor?: string | undefined;
             } | undefined;
             image?: string | undefined;
-            imagewidth?: number | undefined;
-            imageheight?: number | undefined;
             animation?: {
                 duration: number;
                 tileid: number;
             }[] | undefined;
             probability?: number | undefined;
+            imageheight?: number | undefined;
+            imagewidth?: number | undefined;
         }[] | undefined;
+    } | {
+        firstgid: number;
+        source: string;
     })[];
+    class?: string | undefined;
     properties?: ({
-        value: number;
         name: string;
         type: "int";
+        value: number;
     } | {
-        value: boolean;
         name: string;
         type: "bool";
+        value: boolean;
     } | {
-        value: number;
         name: string;
         type: "float";
+        value: number;
     } | {
-        value: string;
         name: string;
         type: "string";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "file";
-    } | {
         value: string;
+    } | {
         name: string;
         type: "color";
+        value: string;
     } | {
-        value: number;
         name: string;
         type: "object";
+        value: number;
     })[] | undefined;
-    class?: string | undefined;
     compressionlevel?: number | undefined;
     parallaxoriginx?: number | undefined;
     parallaxoriginy?: number | undefined;
